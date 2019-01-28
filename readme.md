@@ -7,7 +7,7 @@
 https://github.com/diedai/nettyMaxThread/tree/master
 
 ---
-测试结果
+测试结果  
 到了1万个的时候 服务器端不处理 客户端长时间connect不上 客户端关闭退出
 
 ```
