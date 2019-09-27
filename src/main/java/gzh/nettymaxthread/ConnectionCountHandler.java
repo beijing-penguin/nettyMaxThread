@@ -46,7 +46,7 @@ public class ConnectionCountHandler extends ChannelInboundHandlerAdapter {
 
 	@Override
 	public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
-		super.exceptionCaught(ctx, cause);
+		//super.exceptionCaught(ctx, cause);
 		Channel channel = ctx.channel();
 		if (channel.isActive()) {
 			ctx.close();
